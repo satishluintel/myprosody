@@ -1,12 +1,14 @@
 import myprosody as mysp
 import pickle
 
-p="Walkers" *Audio file name
-c=r"C:\Users\.......YOUR_NAME........\Desktop\myprosody" *an example of path to directory "myprosody" 
+p="suun3.wav" #Audio file name
+c= "myprosody" #an example of path to directory "myprosody" 
 
 
 mysp.mysptotal(p,c)
+
 mysp.myspgend(p,c)
+
 mysp.myspsyl(p,c)
 mysp.mysppaus(p,c)
 mysp.myspsr(p,c)
